@@ -1,0 +1,151 @@
+.analog_clock_codexen {
+	width: 200px;
+    height: 200px;
+    background-color: #f5f5f5;
+    border: 1px solid #c7c7c7;
+    border-radius: 50%;
+    box-shadow: 0 0 16px 0 #ececec;
+    position: relative;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+}
+
+.analog_clock_codexen #sec-hand {
+	width: 1px;
+	height: 50%;
+	background-color: #000;
+	transform-origin: 50% 80%;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+}
+
+.analog_clock_codexen #min-hand {
+	width: 3px;
+	height: 40%;
+	background-color: #000;
+	transform-origin: 50% 80%;
+	position: absolute;
+	top: 18%;
+	left: calc(50% - 1px);
+}
+
+.analog_clock_codexen #hr-hand {
+    width: 3px;
+    height: 25%;
+    background-color: #000;
+    transform-origin: 50% 80%;
+    position: absolute;
+    top: 30%;
+    left: calc(50% + -2px);
+}
+
+.analog_clock_codexen .num{
+	height: 100%;
+	position: absolute;
+	left: calc(50% - 0.5em);
+}
+
+.analog_clock_codexen .num div {
+	width: 1em;
+	line-height: 2em;
+	color: #000;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.analog_clock_codexen .num1 {
+	transform: rotate(30deg);
+}
+
+.analog_clock_codexen .num1 div{
+	transform: rotate(-30deg);
+}
+
+.analog_clock_codexen .num2 {
+	transform: rotate(60deg);
+}
+
+.analog_clock_codexen .num2 div{
+	transform: rotate(-60deg);
+}
+
+.analog_clock_codexen .num3 {
+	transform: rotate(90deg);
+}
+
+.analog_clock_codexen .num3 div{
+	transform: rotate(-90deg);
+}
+
+.analog_clock_codexen .num4 {
+	transform: rotate(120deg);
+}
+
+.analog_clock_codexen .num4 div{
+	transform: rotate(-120deg);
+}
+
+.analog_clock_codexen .num5 {
+	transform: rotate(150deg);
+}
+
+.analog_clock_codexen .num5 div{
+	transform: rotate(-150deg);
+}
+
+.analog_clock_codexen .num6 {
+	transform: rotate(180deg);
+}
+
+.analog_clock_codexen .num6 div{
+	transform: rotate(-180deg);
+}
+
+.analog_clock_codexen .num7 {
+	transform: rotate(210deg);
+}
+
+.analog_clock_codexen .num7 div{
+	transform: rotate(-210deg);
+}
+
+.analog_clock_codexen .num8 {
+	transform: rotate(240deg);
+}
+
+.analog_clock_codexen .num8 div{
+	transform: rotate(-240deg);
+}
+
+.analog_clock_codexen .num9 {
+	transform: rotate(270deg);
+}
+
+.analog_clock_codexen .num9 div{
+	transform: rotate(-270deg);
+}
+
+.analog_clock_codexen .num10 {
+	transform: rotate(300deg);
+}
+
+.analog_clock_codexen .num10 div{
+	transform: rotate(-300deg);
+}
+
+.analog_clock_codexen .num11 {
+	transform: rotate(330deg);
+}
+
+.analog_clock_codexen .num11 div{
+	transform: rotate(-330deg);
+}
+
+.analog_clock_codexen .num12 {
+	transform: rotate(0deg);
+}
+
+.analog_clock_codexen .num12 div{
+	transform: rotate(-0deg);
+}
